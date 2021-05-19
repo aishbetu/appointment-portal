@@ -1,0 +1,11 @@
+body {
+    background-color: #FDF8F5;
+}
+
+.navbar{
+    background: linear-gradient(to left, #9D50BB, #6E48AA);
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}

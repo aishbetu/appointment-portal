@@ -1,0 +1,103 @@
+.center-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn-success.custom-btn{
+  background: linear-gradient(200deg, #FF73A3, #6F6FD8);
+  border: None;
+  width: 8rem;
+  box-shadow:  0 3px 5px rgba(0,0,0,0.3);
+  transition: 1s width ease-in-out;
+
+}
+
+.btn-success.custom-btn:hover, .btn-success.custom-btn:focus{
+  background: linear-gradient(100deg, #FF73A3, #6F6FD8);
+    width: 10rem;
+
+}
+
+.primary-text {
+    color: #6F6FD8;
+}
+
+.secondary-color {
+    color: #FF73A3;
+}
+
+.covid-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 250px;
+    border-radius: 6px;
+    margin: 10px;
+  }
+
+  .covid-card:hover, .covid-card:focus {
+    box-shadow:  0 5px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+  }
+
+  .covid-card p, h5 {
+    letter-spacing: 5px;
+  }
+
+  .infected {
+    background: #7158e2;
+    color: #fff;
+  }
+
+  .recovered {
+    background: #3ae374;
+    color: #fff;
+  }
+
+  .death {
+    background: #ff3838;
+    color: #fff;
+  }
+
+  .vaccine-card {
+      background: #e7daf4;
+      color: #6824cf;
+      width: 400px;
+  }
+
+  .appointment-card {
+    background: #fff;
+    height: 250px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow:  0 5px 10px rgba(0,0,0,0.2);
+  }
+
+  .appointment-card:hover, .appointment-card:focus{
+    box-shadow:  0 5px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+  }
+
+  .top-card{
+    background: #FF73A3;
+    position: relative;
+    height: 150px;
+    width: 180px;
+    left: 10px;
+    top: -60px;
+    border-radius: 4px;
+    box-shadow:  0 5px 10px rgba(0,0,0,0.3);
+  }
+
+footer {
+  background: rgb(121, 120, 120);
+}
+
+ i a:hover {
+  font-size: 1.5rem;
+  transition: 0.3s ease-in-out;
+}
+

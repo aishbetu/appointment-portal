@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block extrahead %}
+    <link href="{% static 'styles/success.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+    <div class="container-fluid bg">
+  <div class="card-container">
+  <div class="bigcard">
+    <div class="mx-5 my-5 d-flex flex-column justify-center">
+            <h4 class="text-center my-3 display-4 text-info">Success!</h4>
+    <p class="text-center lead">Your Appointment has been booked successfully.
+                        We'll contact you shortly on your email.</p>
+      <a type="submit" href="{% url 'home' %}" class="btn btn-info text-white my-4">Back To Home</a>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+{% endblock %}
